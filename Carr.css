@@ -1,12 +1,39 @@
+@import url('https://fonts.googleapis.com/css2? family= Sue+Ellen+Francisco & display=swap');
+
 body{
     background-color:#b9a2ec;
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 25px;
 }
 
-
-.footer-background{
-    background-color: rgb(204, 199, 199;
+footer{
+    padding-top: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
-
+footer h5{
+    color: rgb(130, 130, 125);
+    font-size: 15px;
+}
+button{
+    background: rosybrown;
+    width: 100px;   
+}
+.btn{
+    border-bottom: #e317e6 2px solid;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+button:hover{
+    background-color: #e317e6;
+    width: 95px;
+    transition: 2s;
+}
+b {
+    color: #e317e6;
+}
 @media(max-width:991px){
     #heading{
         padding-left: 50px;

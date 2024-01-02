@@ -33,3 +33,9 @@
     }
     valoresTotalCompra.innerHTML = valor.toFixed(2);
   }
+//pay
+
+<script type="text/javascript">
+function redirectTime(){
+   window.location = "pay.html"
+}
